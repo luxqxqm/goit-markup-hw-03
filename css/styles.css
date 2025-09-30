@@ -1,0 +1,227 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+.btn{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+}
+
+
+.our-team{
+    background: #F4F4FD;
+}
+
+.section-text ul{
+    list-style: none;
+}
+.navigation {
+    list-style: none;
+
+}
+
+.navigation a {
+    color: #2E2F42;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #404BBF
+}
+
+.navigation a:active {
+    text-decoration: underline;
+    color: #404BBF;
+}
+
+
+.address ul{
+    list-style: none;
+    font-style: normal;
+}
+.address-link{
+    color: #434455;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-link:hover{
+    color: #404BBF;
+}
+
+.address-link:focus{
+    color: #404bbf;
+}
+
+.btn{
+    color: #FFFFFF;
+    background: #4D5AE5;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+}
+
+.btn:hover{
+    color: #FFFFFF;
+    background: #404BBF;    
+}
+
+.btn:focus{
+    background-color: #404BBF;
+}
+
+.hero{
+    background: #2E2F42;
+    color: #FFFFFF;
+}
+
+.section-text-h2{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.section-text-p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em
+}
+
+.hero-text{
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-size: 56px
+}
+
+.header-nav-a{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+
+.spn{
+    color:#2e2f42;   
+}
+
+.header-li-a, .header-li-a.focus{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-li-a.focus{
+    color: #434455;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-size: 16px;
+
+
+}
+
+.header-li-active:focus{
+    color: #404bbf;
+}
+
+.header-li-active{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address{
+    font-style: normal
+}
+
+.our-team-header{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+
+}
+.our-team-li{
+    background-color: #FFFFFF;
+    list-style-type: none;
+}
+
+.out-team-mark-guerrero{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-text{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.portfolio-text-h{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-text-p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
+.footer{
+    background-color: #2e2f42;
+}
+
+.spn-footer{
+    color: #f4f4fd;
+}
+
+.footer-p{
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.section-text-main{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-li{
+    list-style-type: none;
+}
