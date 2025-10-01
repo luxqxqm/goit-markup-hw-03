@@ -266,6 +266,7 @@ img{
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    width: calc((100% - 72px) / 4);
 }
 
 .portfolio-li{
@@ -302,10 +303,6 @@ img{
     display: flex;
     gap: 40px;
 
-}
-
-.section-text-li{
-    width: calc((100% - 72px) / 4);
 }
 
 .our-team-list{
