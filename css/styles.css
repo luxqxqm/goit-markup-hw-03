@@ -127,7 +127,6 @@ img{
 .section-text-ul{
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
 }
 
 .section-text-p{
@@ -308,4 +307,8 @@ img{
 .our-team-list{
     display: flex;
     gap: 24px;
+}
+
+.section-text-li{
+    flex-basis: calc((100% - 72px) / 4);
 }
