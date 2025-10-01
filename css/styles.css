@@ -6,6 +6,9 @@ body {
     letter-spacing: 2%;
     color: #434455;
     background-color: #FFFFFF;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 .btn{
     font-family: "Roboto", sans-serif;
@@ -31,6 +34,7 @@ body {
 .navigation a {
     color: #2E2F42;
     text-decoration: none;
+    
 }
 
 .navigation a:hover {
@@ -114,10 +118,11 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    align-content: center;
 }
 
 .spn{
-    color:#2e2f42;   
+    color:#2e2f42;
 }
 
 .header-li-a, .header-li-a.focus{
@@ -225,3 +230,45 @@ body {
 .portfolio-li{
     list-style-type: none;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container{
+    display: flex;  
+    width: 1158px;
+    justify-content: center;
+}
+
+.container .navigation{
+    display: flex;
+    gap: 40px;
+    margin-left: 76px;
+    
+}
+
+.header-nav{
+    align-content: center;
+}
+
+.address{
+    align-content: center;
+
+}
+
+.address ul{
+    display: flex;
+    gap: 40px;
+    margin-left: 332px;
+}
+
