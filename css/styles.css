@@ -10,6 +10,10 @@ body {
     margin: 0;
     padding: 0;
 }
+
+img{
+    display: block;
+}
 .btn{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -119,6 +123,8 @@ body {
     color: #4d5ae5;
     text-decoration: none;
     align-content: center;
+    margin-right: 76px;
+
 }
 
 .spn{
@@ -150,6 +156,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .address{
@@ -247,10 +254,11 @@ body {
 .container{
     display: flex;  
     width: 1158px;
-    justify-content: center;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 
-.container .navigation{
+.navigation{
     display: flex;
     gap: 40px;
     margin-left: 76px;
@@ -258,17 +266,17 @@ body {
 }
 
 .header-nav{
-    align-content: center;
-}
-
-.address{
-    align-content: center;
+    display: flex;
+    align-items: center;
 
 }
 
-.address ul{
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.address-list{
     display: flex;
     gap: 40px;
-    margin-left: 332px;
-}
 
+}
