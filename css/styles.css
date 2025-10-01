@@ -309,6 +309,6 @@ img{
     gap: 24px;
 }
 
-.section-text-method:first-child{
+.section-text-method{
     width:calc((100% - 72px) / 4);
 }
