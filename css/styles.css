@@ -29,8 +29,14 @@ img{
 
 .our-team{
     background: #F4F4FD;
+    padding: 120px 0;
 }
 
+
+.section-text{
+    padding: 120px 0;
+
+}
 .section-text ul{
     list-style: none;
 }
@@ -105,6 +111,24 @@ img{
     color: #2e2f42;
 }
 
+.section-text-h2 .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section-text-ul{
+    display: flex;
+    gap: 24px;
+}
+
 .section-text-p{
     font-size: 16px;
     line-height: 1.5;
@@ -176,11 +200,14 @@ img{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 
 }
 .our-team-li{
     background-color: #FFFFFF;
     list-style-type: none;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .out-team-mark-guerrero{
@@ -238,24 +265,14 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-li{
     list-style-type: none;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
+
 
 .container{
     display: flex;  
@@ -285,4 +302,13 @@ img{
     display: flex;
     gap: 40px;
 
+}
+
+.section-text-li{
+    width: calc((100% - 72px) / 4);
+}
+
+.our-team-list{
+    display: flex;
+    gap: 24px;
 }
