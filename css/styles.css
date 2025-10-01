@@ -20,6 +20,10 @@ img{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 4%;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 
@@ -90,6 +94,7 @@ img{
 .hero{
     background: #2E2F42;
     color: #FFFFFF;
+    padding: 188px 0;
 }
 
 .section-text-h2{
@@ -110,7 +115,8 @@ img{
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    font-size: 56px
+    font-size: 56px;
+    max-width: 496px;
 }
 
 .header-nav-a{
