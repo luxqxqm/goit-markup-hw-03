@@ -356,7 +356,7 @@ img{
     box-shadow: 0 1px 6px rgb(46, 47, 66, 0.08);
 }
 
-.container .header-nav-a{
+.footer .container .header-nav-a{
     display: inline-block;
     margin-bottom: 16px;
 }
@@ -377,5 +377,5 @@ img{
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
-    
+
 }
