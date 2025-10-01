@@ -208,6 +208,9 @@ img{
     list-style-type: none;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .out-team-mark-guerrero{
@@ -311,4 +314,32 @@ img{
 
 .section-text-method{
     width:calc((100% - 72px) / 4);
+}
+
+.hero .container{
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.our-team .container{
+    flex-direction: column;
+        align-items: center;
+}
+
+.our-team-des{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 32px 0;
+}
+
+.our-team-des h3, .our-team-des p{
+    margin: 0;
+    
+}
+
+.our-team-li{
+    box-shadow: 0 1px 6px rgb(46, 47, 66, 0.08);
 }
