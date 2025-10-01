@@ -11,6 +11,11 @@ body {
     padding: 0;
 }
 
+ul{
+    margin: 0;
+    padding: 0;
+}
+
 img{
     display: block;
 }
@@ -127,6 +132,7 @@ img{
 .section-text-ul{
     display: flex;
     gap: 24px;
+    
 }
 
 .section-text-p{
@@ -277,8 +283,7 @@ img{
 
 
 
-.container{
-    display: flex;  
+.container{ 
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
