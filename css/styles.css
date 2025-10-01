@@ -309,6 +309,6 @@ img{
     gap: 24px;
 }
 
-.section-text-li{
+.section-text-li:first-child{
     flex-basis: calc((100% - 72px) / 4);
 }
