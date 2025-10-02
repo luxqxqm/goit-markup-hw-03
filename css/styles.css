@@ -196,7 +196,8 @@ img{
         text-decoration: none;
         align-content: center;
         display: inline-block;
-        margin-bottom: 8px;
+        margin-bottom: 16px;
+
 }
 .spn{
     color:#2e2f42;
@@ -377,6 +378,7 @@ img{
 .our-team .container{
     flex-direction: column;
         align-items: center;
+        padding: 32px 0;
 }
 
 .our-team-des{
@@ -421,8 +423,4 @@ img{
 
 .portfolio .container{
     flex-direction: column;
-}
-
-.footer .container{
-    
 }
