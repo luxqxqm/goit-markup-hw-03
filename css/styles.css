@@ -337,7 +337,7 @@ img{
 .navigation{
     display: flex;
     gap: 40px;
-    margin:0 0 0 76px;
+    margin:0;
     padding-left: 0;
     align-items: center;
     
@@ -356,8 +356,8 @@ img{
 .address-list{
     display: flex;
     gap: 40px;
-    margin: 0 0 0 76px;
-    padding: 24px 0;
+    margin-left: auto;
+
     
 }
 
@@ -424,4 +424,8 @@ img{
 
 .portfolio .container{
     flex-direction: column;
+}
+
+.header .container{
+    justify-content: space-between;
 }
